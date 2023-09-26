@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Recipe Website - React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Recipe Website project built with React.js and powered by the Spoonacular API. This website allows users to explore a variety of recipes, find cooking inspiration, and discover new dishes.
 
-## Available Scripts
+## Website Preview:
 
-In the project directory, you can run:
+![Website Preview](src/components/Preview.png)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browse a collection of delicious recipes.
+- Search for recipes based on ingredients, cuisine, or dietary preferences.
+- View detailed recipe information, including ingredients, instructions, and nutritional facts.
+- Responsive design for a seamless experience on various devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ## Demo
 
-### `npm test`
+You can try out the live demo of the Recipe Website here: [Demo Link](https://aakash-rajbhar.github.io/Recipe-Website)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Follow these steps to set up the project locally on your machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/your-username/recipe-website.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd recipe-website
+```
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open your web browser and visit http://localhost:3000 to view the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
+<p>Browse recipes: Explore a wide range of recipes by clicking on the available categories or using the search functionality.</p>
+<p>Search for recipes: Use the search bar to find recipes based on ingredients, cuisine, or dietary preferences.</p>
+<p>View recipe details: Click on a recipe card to view detailed information, including ingredients, instructions, and nutritional facts.</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+This project uses the Spoonacular API to fetch recipe data. To use the API, you need to obtain an API key from Spoonacular. Once you have the API key, create a .env file in the project root directory and add the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+REACT_APP_SPOONACULAR_API_KEY=your-api-key-here
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+##Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-Fork the repository.<br>
+-Create a new branch for your feature or bug fix: git checkout -b feature-name.<br>
+-Make your changes and commit them: git commit -m 'Add new feature'.<br>
+-Push to the branch: git push origin feature-name.<br>
+-Create a pull request to merge your changes into the main branch.<br>
 
-### Analyzing the Bundle Size
+Feel free to ask your queries and drop comments.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
