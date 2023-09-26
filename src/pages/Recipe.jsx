@@ -62,11 +62,23 @@ const DetailWrapper = styled.div`
         flex-direction: column !important;
         margin-top: 5rem;
         gap: 2rem;
+        align-items: start;
+        
+        img{
+            width: 100%;
+        }
 
+    }
+
+    @media screen and (max-width: 600px){
         img{
             width: 20rem;
         }
 
+    }
+
+    @media screen and (max-width: 400px){
+        align-items: center;
     }
 
     .active{
@@ -94,9 +106,13 @@ const Button = styled.button`
     color: #313131;
     background: white;
     border: 2px solid black;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-right: 1.8rem;
+    margin-bottom: 1.5rem;
     font-weight: 600;
+
+    @media screen and (max-width: 900px){
+        margin-right: 1rem;
+    }
 `;
 
 const Info = styled.div `
